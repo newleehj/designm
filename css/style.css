@@ -1,0 +1,339 @@
+/* 공통영역 시작---------------------------------- */
+@charset "utf-8";
+* {margin:0; padding:0;}
+.notext {display:none;}
+li {list-style:none;}
+a {text-decoration:none;}
+body {
+    height:100%;
+    background:#fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:16px;
+    color:rgb(63, 63, 63);
+}
+.headerD {
+    min-width:100%;
+    min-height:100%;
+}
+.headerwrapD {
+    width:1260px;
+    height:300px;
+    margin:0 auto;
+}
+/* header : 서브메뉴*/
+#tnbD {
+    width:300px;
+    height:20px;
+    line-height:20px;
+    float:right;
+    margin:20px 0;
+    background: rgb(143, 143, 143);
+    text-align:center;
+    border-radius: 10px;
+}
+#tnbD li {
+    display:inline-block;
+}
+#tnbD li a {
+    font-size:14px;
+    color:#fff;
+    padding:0 10px;
+}
+#tnbD li a:hover {
+    color:#000;
+}
+/* header : 로고*/
+#logoD {
+    width:400px;
+    height:160px;
+    float:right;
+    margin:100px auto 0;
+}
+#logoD img {
+    width:300px;
+}
+/* header : 메인메뉴*/
+#menuD {
+    width:800px;
+    height:80px;
+    float:left;
+    text-align:center;
+    margin:0 270px;
+    font-size:0;
+}
+#menuD ul li {
+    display:inline-block;
+    width:25%;
+}
+#menuD ul li a {
+    font-size:20px;
+    color:rgb(63, 63, 63);
+    font-weight:bolder;
+}
+#menuD ul li a:hover {
+    border-bottom:3px solid rgb(43, 132, 206);
+}
+/* 공통영역 끝--------------------------------- */
+
+/* index 변경영역 시작---------------------------------- */
+/* main : sec01 슬라이드 */
+#slideD {
+    width:1260px;
+    margin:0 auto;
+}
+/* main : sec02 검색 */
+.hd_sch_wr {
+    width:1000px;
+    height:100px;
+    position:relative;
+}
+#hd_sch {
+    position:absolute;
+    left:380px;
+}
+/* main : sec03 베스트 포트폴리오 */
+#bestprD {
+    width:1260px;
+    height:800px;
+    margin:0 auto;
+    position:relative;
+    top:100px;
+}
+.titleD {
+    float:left;
+    position:absolute;
+    margin:20px 0 0 80px;
+    font-size:22px;
+}
+.moreD {
+    position:absolute;
+    top:40px;
+    left:1130px;
+}
+.best1D {
+    width:370px;
+    height:450px;
+    background:rgba(221, 221, 221, 0.507);
+    position:absolute;
+    top:70px;
+    left:80px;
+}
+.best2D {
+    width:370px;
+    height:450px;
+    background:rgba(221, 221, 221, 0.507);
+    position:absolute;
+    top:70px;
+    left:460px;
+}
+.best3D {
+    width:370px;
+    height:450px;
+    background:rgba(221, 221, 221, 0.507);
+    position:absolute;
+    top:70px;
+    left:840px;
+}
+.bestImgD {
+    width:350px;
+    margin:10px auto;
+}
+.besttextD {
+    float:left;
+    width:250px;
+    margin:15px 20px;
+    font-weight:bolder;
+}
+.btnD {
+    float:right;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgba(216, 216, 216, 0.822);
+    margin-right:30px;
+}
+/* index  변경영역 끝---------------------------------- */
+
+/* intro  변경영역 시작---------------------------------- */
+/* 회사소개 */
+.introD {
+    min-width:100%;
+    min-height:1500px;
+    border-top:1px solid rgba(221, 221, 221, 0.582);
+}
+.introwrapD {
+    width:1260px;
+    height:1500px;
+    margin:0 auto;
+}
+.box1D {
+    width:1100px;
+    height:250px;
+    margin:60px 220px 0;
+    float:left;
+}
+.box2D {
+    width:1100px;
+    height:250px;
+    margin:0 220px;
+    float:left;
+}
+.box3D {
+    width:1100px;
+    height:250px;
+    margin:0 220px;
+    float:left;
+}
+.boximgD {
+    width:200px;
+    height:200px;
+    float:left;
+    border-radius:20px;
+    box-shadow:1px 1px rgba(221, 221, 221, 0.562);
+}
+.boxtextD {
+    width:600px;
+    float:left;
+    margin:70px 0 0 50px;
+    line-height:1.6;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.658);
+}
+.mapD {
+    width:1100px;
+    height:250px;
+    margin:100px 400px 0;
+    float:left;
+}
+.mapDimg {
+    width:500px;
+}
+.mapDtitle {
+    font-weight:bold;
+    color:rgb(43, 132, 206);
+    margin:20px 25px;
+    border:1px solid rgb(43, 132, 206);
+    padding:5px 10px;
+    border-radius:10px;
+    width:450px;
+    text-align:center;
+}
+.mapDtext {
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.658);
+    margin:20px 20px 0;
+}
+/* intro  변경영역 끝---------------------------------- */
+
+/* contant  변경영역 시작---------------------------------- */
+.contactD {
+    min-width:100%;
+    min-height:100%;
+    border-top:1px solid rgba(221, 221, 221, 0.582);
+}
+.ctwrap {
+    width:1260px;
+    height:1000px;
+    margin:0 auto;
+}
+.cth3 {
+    width:300px;
+    font-size:22px;
+    margin:100px 0 0 260px;
+}
+.ctcontent {
+    width:900px;
+    height:800px;
+    margin:0 auto;
+    padding:80px 80px;
+}
+.ctfield {
+    margin-bottom:30px;
+}
+.ctbox {
+    font-size:18px;
+    width:150px;
+    float: left;
+}
+.cttext {
+    width:400px;
+    height:50px;
+    line-height:50px;
+    border-radius:10px;
+    padding-left:5px;
+}
+.ctmessage {
+    width:800px;
+    height:300px;
+    border-radius:10px;
+    padding:5px 5px;
+    margin-top:30px;
+}
+.ctfield2 {
+    width:300px;
+    height:100px;
+    float:left;
+    margin-left:550px;
+}
+.ctfield2 li {
+    display: inline;
+}
+.ctbtn {
+    width:120px;
+    height:40px;
+    border-radius:10px;
+    line-height:40PX;
+    margin-right:10px;
+}
+/* contant  변경영역 끝---------------------------------- */
+
+/* 공통영역 시작---------------------------------- */
+/*푸터*/
+.footerD {
+    min-width:100%;
+    height:200px;
+    border-top:1px solid #ddd;
+}
+.footerwrapD {
+    width:1260px;
+    height:200px;
+    margin:0 auto;
+}
+/* 푸터 메뉴 */
+#ft_menuD {
+    float:right;
+    margin:10px 30px;
+}
+#ft_menuD ul li {
+    display:inline-block;
+}
+#ft_menuD ul li a {
+    padding-right:20px;
+    font-size:14px;
+    color:rgb(121, 121, 121);
+}
+#ft_menuD ul li a:hover {
+    color:#000;
+}
+/* 푸터 로고 */
+#ft_logoD {
+    float:left;
+    margin:50px 0 0 180px;
+}
+#ft_logoD img {
+    width:200px;
+}
+/* 주소&COPY */
+.addressD {
+    width:1000px;
+    height:150px;
+    position: relative;
+    left:100px;
+    top:60px;
+}
+.addressD p {
+    font-size:14px;
+    color:rgb(121, 121, 121);
+    font-style:normal;
+}
+/* 공통영역 끝---------------------------------- */
