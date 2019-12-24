@@ -77,7 +77,7 @@ box-shadow:0 0 5px rgba(55,55,5,0.4)}
 #hd_nb {background:#fff;margin-top:10px;border-bottom:1px solid #e1e1e1}
 #hd_nb:after {display:block;visibility:hidden;clear:both;content:""}
 #hd_nb li {width:50%;float:left;text-align:center;line-height:25px;font-size:1.083em;font-weight:bold}
-#hd_nb li a {display:block;color:#717171;text-align:left;padding:10px 15px}
+#hd_nb li a {display:block;color:#717171;text-align:left;padding:10px 15px; text-align:center;}
 #hd_nb li i {font-size:14px;margin-right:10px;color:#a5a8ac}
 #hd_nb .hd_nb1 {border-right:1px solid #efefef;border-bottom:1px solid #efefef}
 #hd_nb .hd_nb2 {border-bottom:1px solid #efefef}
