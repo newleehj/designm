@@ -10,10 +10,10 @@ include_once(G5_MOBILE_PATH.'/head.php');
 ?>
 
 
-<?php echo latest('basic', 'portfolio', 12, 25); ?>
+<?php echo latest('basic', 'portfolio', 12, 22); ?>
 
 <section class="btn_mm">
-    <a href="#"><input type="button" value="제작서비스 바로가기" class="btn_mmtext"></a>
+    <a href="<?php echo G5_URL ?>/intro.php"><input type="button" value="제작서비스 바로가기" class="btn_mmtext"></a>
 </section>
 
 <?php
