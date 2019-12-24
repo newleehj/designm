@@ -17,21 +17,19 @@ if(defined('G5_THEME_PATH')) {
 <div id="ft">
     <div id="ft_copy">
         <div id="ft_company">
-            <a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a>
+            <a href="<?php echo get_pretty_url('content', 'center'); ?>">고객센터</a>
             <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
             <a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a>
         </div>
-        Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.<br>
+        Copyright &copy; <b>디자인 맑음</b> All rights reserved.<br>
     </div>
     <div class="ft_cnt">
-    	<h2>사이트 정보</h2>
         <p class="ft_info">
-        	회사명 : 회사명 / 대표 : 대표자명<br>
-			주소  : OO도 OO시 OO구 OO동 123-45<br>
+        	회사명 : 디자인 맑음 ㅣ 대표 : 이지혜<br>
+			주소  : 광주 북구 삼정로 92 한영B<br>
 			사업자 등록번호  : 123-45-67890<br>
-			전화 :  02-123-4567  팩스  : 02-123-4568<br>
-			통신판매업신고번호 :  제 OO구 - 123호<br>
-			개인정보관리책임자 :  정보책임자명<br>
+			전화 :  070-123-4567  팩스  : 02-123-4568<br>
+			개인정보관리책임자 :  강지훈<br>
 		</p>
     </div>
     <button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span></button>
