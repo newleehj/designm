@@ -37,8 +37,7 @@ ul {list-style:none}
 .hd_pops_footer button {margin-right:5px;padding:5px 10px;border:0;background:#393939;color:#fff}
 
 /* 제작서비스 바로가기 버튼 */
-
-.btn_mmtext{padding:10px 40px;color:#fff;text-align:center;border-radius:10px;background:#000;border:none;margin:50px auto;}
+.btn_mmtext{padding:15px 40px;color:#fff;text-align:center;border-radius:10px;background:#3b8afb;border:none;margin:50px 100px;}
 
 /* 상단 레이아웃 */
 #hd {position:relative;background:#212020}
