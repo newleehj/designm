@@ -69,10 +69,10 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <?php } ?>
             </ul>
             <ul id="hd_nb">
-            	<li class="hd_nb1"><a href="<?php echo G5_URL ?>/intro.php" id="snb_faq">맑음이야기</a></li>
+            	<li class="hd_nb1"><a href="<?php echo G5_URL ?>/docs/intro.php" id="snb_faq">맑음이야기</a></li>
                 <li class="hd_nb2"><a href="http://pishshic.dothome.co.kr/bbs/board.php?bo_table=portfolio" id="snb_qa">포트폴리오</a></li>
                 <li class="hd_nb3"><a href="http://pishshic.dothome.co.kr/bbs/board.php?bo_table=notice" id="snb_cnt">맑음소식</a></li>
-                <li class="hd_nb4"><a href="<?php echo G5_URL ?>/contact.php" id="snb_new"></i>제작서비스</a></li>   
+                <li class="hd_nb4"><a href="<?php echo G5_URL ?>/docs/contact.php" id="snb_new"></i>제작서비스</a></li>   
             </ul>
         </div>
 

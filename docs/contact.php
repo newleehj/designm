@@ -9,10 +9,10 @@ if(defined('G5_THEME_PATH')) {
     return;
 }
 
-if (G5_IS_MOBILE) {
-    include_once(G5_MOBILE_PATH.'/index.php');
-    return;
-}
+// if (G5_IS_MOBILE) {
+//     include_once(G5_MOBILE_PATH.'/index.php');
+//     return;
+// }
 
 include_once(G5_PATH.'/head.php');
 ?>
@@ -36,7 +36,7 @@ include_once(G5_PATH.'/head.php');
 						<input type="email" name="email" id="ctphone" value="" />
 					</div>
 					<div class="ctfield4">
-						<label for="message">Message</label>
+						<label for="message" class="ctfield4text">Message</label>
 						<textarea name="message" id="message" rows="6"></textarea>
 					</div>
 				</div>

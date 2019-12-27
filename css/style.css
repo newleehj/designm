@@ -5,6 +5,7 @@
 li {list-style:none;}
 a {text-decoration:none;}
 body {
+    width:100%;
     height:100%;
     background:#fff;
     font-family: 'Nanum Gothic', sans-serif;
@@ -249,44 +250,62 @@ body {
     margin:0 auto;
     padding:80px 80px;
 }
-.ctfield {
-    margin-bottom:30px;
+#ctname {
+    width:500px;
+    height:40px;
+    border-radius:5px;
+    padding-left:20px;
+    margin-left:30px;
+    border:1px solid #ddd;
 }
-.ctbox {
-    font-size:18px;
-    width:150px;
-    float: left;
-}
-.cttext {
-    width:400px;
-    height:50px;
-    line-height:50px;
-    border-radius:10px;
-    padding-left:5px;
-}
-.ctmessage {
-    width:800px;
-    height:300px;
-    border-radius:10px;
-    padding:5px 5px;
-    margin-top:30px;
+.ctfield1 {
+    margin-bottom:20px;
+} 
+#ctemail {
+    width:500px;
+    height:40px;
+    border-radius:5px;
+    padding-left:20px;
+    margin-left:35px;
+    border:1px solid #ddd;
 }
 .ctfield2 {
-    width:300px;
-    height:100px;
-    float:left;
-    margin-left:550px;
-}
-.ctfield2 li {
-    display: inline;
-}
-.ctbtn {
-    width:120px;
+    margin-bottom:20px;
+} 
+#ctphone {
+    width:500px;
     height:40px;
-    border-radius:10px;
-    line-height:40PX;
-    margin-right:10px;
+    border-radius:5px;
+    padding-left:20px;
+    margin-left:30px;
+    border:1px solid #ddd;
 }
+.ctfield3 {
+    margin-bottom:20px;
+    text-transform: capitalize;
+} 
+#ctfield4text {
+    float:left;
+    
+}
+#message {
+    width:500px;
+    height:100px;
+    border-radius:5px;
+    padding-left:20px;
+    margin-left:20px;
+    border:1px solid #ddd;  
+    float: left;
+    top:100px;    
+    left:200px;
+
+}
+.ctfield4 {
+    margin-bottom:50px;
+} 
+
+
+
 /* contant  변경영역 끝---------------------------------- */
 
 /* 공통영역 시작---------------------------------- */
