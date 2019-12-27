@@ -42,6 +42,7 @@ include_once(G5_PATH.'/head.php');
 				</div>
 				<ul class="ctactions">
 					<li><input type="submit" name="submit" id="ctsubmit" value="신청하기" /></li>
+					<li><input type="reset" name="reset" id="ctreset" value="취소" /></li>
 				</ul>
 			</form>
 		</div>
