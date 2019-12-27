@@ -21,8 +21,6 @@ include_once(G5_MOBILE_PATH.'/head.php');
 
 <?php echo latest('basic', 'notice', 12, 22); ?>
 
-
-
 <?php
 include_once(G5_MOBILE_PATH.'/tail.php');
 ?>
