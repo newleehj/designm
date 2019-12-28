@@ -49,7 +49,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <li><a href="<?php echo G5_URL ?>/docs/intro.php">맑음 이야기</a></li>
                     <li><a href="http://pishshic.dothome.co.kr/bbs/board.php?bo_table=portfolio">포트폴리오</a></li>
                     <li><a href="http://pishshic.dothome.co.kr/bbs/board.php?bo_table=notice">맑음 소식</a></li>
-                    <li><a href="<?php echo G5_URL ?>/docs/contact.php">제작 서비스</a></li>
+                    <li><a href="<?php echo G5_URL ?>/docs/customer1.php">제작 서비스</a></li>
                 </ul>
             </nav>
         </div>
