@@ -18,13 +18,20 @@ include_once(G5_MOBILE_PATH.'/head.php');
 ?>
 
 <style>
-.introwrapM {
-    width:425px;
-    margin:0 auto;
+.box1M {
+    margin-top:50px;
+    margin-left:30px;
+}
+.box3M {
+    margin-bottom:50px;
+    margin-left:30px;
+}
+.box2M {
+    margin-left:30px;
 }
 .boximgM {
-    margin-left:30px;
     border-radius:10px;
+    border:1px solid #ddd;
 } 
 .boxtextM {
     margin:20px 30px 30px 30px;
