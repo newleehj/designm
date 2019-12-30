@@ -34,7 +34,7 @@ include_once(G5_MOBILE_PATH.'/head.php');
     border:1px solid #ddd;
 } 
 .boxtextM {
-    margin:20px 30px 30px 30px;
+    margin:20px 20px 30px 10px;
 }
 </style>
 
