@@ -343,6 +343,7 @@ body {
     width:1260px;
     height:200px;
     margin:0 auto;
+    position:relative;
 }
 /* 푸터 메뉴 */
 #ft_menuD {
