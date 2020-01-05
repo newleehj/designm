@@ -96,6 +96,3 @@ if(is_file($skin_file)) {
 
 include_once('./_tail.php');
 ?>
-
-
-

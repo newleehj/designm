@@ -25,12 +25,22 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     }
     ?>
+    <div id="tnb">
+    	<div class="inner">
+			<ul id="hd_qnb">
+	            <li><a href="<?php echo G5_BBS_URL ?>/faq.php">FAQ</a></li>
+	            <li><a href="<?php echo G5_BBS_URL ?>/qalist.php">Q&A</a></li>
+	            <li><a href="<?php echo G5_BBS_URL ?>/new.php">새글</a></li>
+	            <li><a href="<?php echo G5_BBS_URL ?>/current_connect.php" class="visit">접속자<strong class="visit-num"><?php echo connect('theme/basic'); // 현재 접속자수, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?></strong></a></li>
+	        </ul>
+		</div>
+    </div>
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_URL ?>/images/logo2.png" alt="<?php echo $config['cf_title']; ?>"></a>
+            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
-        
+    
         <div class="hd_sch_wr">
             <fieldset id="hd_sch">
                 <legend>사이트 내 전체검색</legend>
@@ -74,8 +84,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 
             <?php echo popular('theme/basic'); // 인기검색어, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?>
         </div>
-        <ul class="hd_login"> 
-            <li><a href="http://goommorning.co.kr/">Home</li>
+        <ul class="hd_login">        
             <?php if ($is_member) {  ?>
             <li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">정보수정</a></li>
             <li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
@@ -92,10 +101,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     
     <nav id="gnb">
         <h2>메인메뉴</h2>
-        <nav id="gnb">
-        <h2>메인메뉴</h2>
         <div class="gnb_wrap">
             <ul id="gnb_1dul">
+                <li class="gnb_1dli gnb_mnal"><button type="button" class="gnb_menu_btn" title="전체메뉴"><i class="fa fa-bars" aria-hidden="true"></i><span class="sound_only">전체메뉴열기</span></button></li>
                 <?php
 				$menu_datas = get_menu_db(0, true);
 				$gnb_zindex = 999; // gnb_1dli z-index 값 설정용
@@ -167,9 +175,6 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 </ul>
                 <button type="button" class="gnb_close_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
             </div>
-            <div id="gnb_all_bg"></div>
-        </div>
-    </nav>
             <div id="gnb_all_bg"></div>
         </div>
     </nav>

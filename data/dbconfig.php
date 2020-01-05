@@ -1,10 +1,10 @@
 <?php
 if (!defined('_GNUBOARD_')) exit;
 define('G5_MYSQL_HOST', 'localhost');
-define('G5_MYSQL_USER', 'goommorning');
-define('G5_MYSQL_PASSWORD', 'l9602l5627^^');
-define('G5_MYSQL_DB', 'goommorning');
-define('G5_MYSQL_SET_MODE', true);
+define('G5_MYSQL_USER', 'pishshic');
+define('G5_MYSQL_PASSWORD', 'drop4138!!');
+define('G5_MYSQL_DB', 'pishshic');
+define('G5_MYSQL_SET_MODE', false);
 
 define('G5_TABLE_PREFIX', 'g5_');
 
