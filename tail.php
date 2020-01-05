@@ -12,30 +12,68 @@ if (G5_IS_MOBILE) {
 }
 ?>
 
-<footer class="footerD">
-        <div class="fooerwrapD">
-            <h2 class="notext">푸터:로고,서브메뉴,주소&copy</h2>
-            <!-- 푸터 메뉴 -->
-            <div id="ft_menuD">
-                <ul>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">고객센터</a></li>
-                </ul>
-            </div>
-            <!-- 푸터 로고 -->
-            <div id="ft_logoD">
-                <a href="<?php echo G5_URL ?>/index.html"><img src="<?php echo G5_URL ?>/image/logo.png" alt="헤더로고"></a>
-            </div>
-            <!-- 주소&COPY -->
-            <address class="addressD">
-                <p>주소 : 광주광역시 북구 삼정로 92 한영B 대표번호 : 070-123-1234</p>
-                <p>사업자번호 : 123-1234-12345 대표자 : 이지혜 E-mail : designm@gmail.com</p>   
-                <p>COPY&copy; 디자인 맑음 2019 ALL RIGHTS </p>         
-            </address>
+    </div>
+    <div id="aside">
+        <?php echo outlogin(); // 외부 로그인, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
+        <?php echo poll(); // 설문조사, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
+    </div>
+</div>
+
+</div>
+<!-- } 콘텐츠 끝 -->
+
+<hr>
+
+<!-- 하단 시작 { -->
+<div id="ft">
+
+    <div id="ft_wr">
+        <div id="ft_link" class="ft_cnt">
+            <a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a>
+            <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
+            <a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a>
+            <a href="<?php echo get_device_change_url(); ?>">모바일버전</a>
         </div>
-    </footer>
-    
+        <div id="ft_company" class="ft_cnt">
+        	<h2>사이트 정보</h2>
+	        <p class="ft_info">
+	        	회사명 : 회사명 / 대표 : 대표자명<br>
+				주소  : OO도 OO시 OO구 OO동 123-45<br>
+				사업자 등록번호  : 123-45-67890<br>
+				전화 :  02-123-4567  팩스  : 02-123-4568<br>
+				통신판매업신고번호 :  제 OO구 - 123호<br>
+				개인정보관리책임자 :  정보책임자명<br>
+			</p>
+	    </div>
+    </div>
+    <!-- <div id="ft_catch"><img src="<?php echo G5_IMG_URL; ?>/ft_logo.png" alt="<?php echo G5_VERSION ?>"></div> -->
+    <div id="ft_copy">Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.</div>
+
+    <button type="button" id="top_btn">
+    	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
+    </button>
+    <script>
+    $(function() {
+        $("#top_btn").on("click", function() {
+            $("html, body").animate({scrollTop:0}, '500');
+            return false;
+        });
+    });
+    </script>
+</div>
+
+<?php
+if(G5_DEVICE_BUTTON_DISPLAY && !G5_IS_MOBILE) { ?>
+<?php
+}
+
+if ($config['cf_analytics']) {
+    echo $config['cf_analytics'];
+}
+?>
+
+<!-- } 하단 끝 -->
+
 <script>
 $(function() {
     // 폰트 리사이즈 쿠키있으면 실행
