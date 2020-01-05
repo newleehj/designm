@@ -82,25 +82,13 @@ body {
     width:1260px;
     margin:0 auto;
 }
-/* main : sec02 검색 */
-.hd_sch_wr {
-    min-width:100%;
-}
-#hd_sch {
-    width:1260px;
-    margin:0 auto;
-}
-/* #hd_sch {
-    width:1000px;
-    margin:0 auto;
-} */
 /* main : sec03 베스트 포트폴리오 */
 #bestprD {
     width:1260px;
     height:800px;
     margin:0 auto;
     position:relative;
-    top:100px;
+    top:20px;
 }
 .titleD {
     float:left;
